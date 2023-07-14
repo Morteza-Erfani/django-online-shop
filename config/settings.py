@@ -121,6 +121,7 @@ AUTHENTICATION_BACKENDS = [
     # django allAuth
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
 EMAIL_BACKEND = 'django.core.mail.backend.console.EmailBackend'
 
 # Internationalization
